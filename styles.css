@@ -1,0 +1,394 @@
+/*Css Style Sheet*/
+	Filename: mystyles.css
+	
+div wrapper {
+width : 80%;
+margin : auto;
+border : 1px solid black;
+background-color : #006400;
+	
+} 
+
+/* top of the website layout – 3 columns */
+        .top-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            padding: 10px;
+            width: 100%;
+        }
+
+
+        /* Contact styling */
+        .contact {
+            text-align: center;
+			font-size: 17px;
+            line-height: 1.0;
+            margin-bottom: 30px;
+        }
+
+        /* Zalgiris logo middle */
+        .-logo {
+            
+			height: 180px;
+			width: 180px;
+        }
+
+        /* Center title */
+        .center-title {
+            text-align: center;
+            font-size: 40px;
+            margin-top: 30px; /* centers */
+        }
+
+        /* Right column: socials + 4 images */
+        .right-col {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+        }
+
+        .social-icons img {
+            height: 30px;
+            margin-right: 1px;
+        }
+
+        .social-icons {
+            margin-bottom: 40px;
+        }
+
+        .dropdown-content img {
+            height: 60px;
+            margin: 1px;
+        }
+		
+		.dropdown-content1 img {
+            height: 60px;
+            margin: 1px;
+        }
+
+        .right-text {
+            margin-bottom: 10px;
+            font-size: 18px;
+        }
+		body {
+		background-color : #7F8F4E;
+		opacity: 1.0;
+		}
+		
+		.header {
+		padding: 80px;
+		text-align: center;
+		background: #1abc9c;
+		color: white;
+		}
+}
+
+		
+		//dropdown menu for zalgiris shop
+		<style>
+
+		.dropdown {
+		position: relative;
+		}
+
+		body {
+  margin: 0;
+  padding: 0;
+}
+
+h2, p {
+  margin: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #38444d;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+</style>
+
+//dropdown menu for euroleague page
+//dropdown menu for betsson lkl page
+		<style>
+
+		.dropdown2 {
+		position: relative;
+		}
+
+		body {
+  margin: 0;
+  padding: 0;
+}
+
+h2, p {
+  margin: 15px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #38444d;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn1 {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown1:hover .dropbtn1 {
+  background-color: red;
+}
+
+li.dropdown1 {
+  display: inline-block;
+}
+
+.dropdown-content1 {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content1 a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content1 a:hover {background-color: #f1f1f1;}
+
+.dropdown1:hover .dropdown-content1 {
+  display: block;
+}
+</style>
+
+
+//dropdown menu for betsson lkl page
+		<style>
+
+		.dropdown2 {
+		position: relative;
+		}
+
+		body {
+  margin: 0;
+  padding: 0;
+}
+
+h2, p {
+  margin: 15px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #38444d;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn1 {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown1:hover .dropbtn1 {
+  background-color: red;
+}
+
+li.dropdown1 {
+  display: inline-block;
+}
+
+.dropdown-content1 {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content1 a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content1 a:hover {background-color: #f1f1f1;}
+
+.dropdown1:hover .dropdown-content1 {
+  display: block;
+}
+</style>
+
+
+</head>
+
+
+
+<body>
+
+body{
+	background-color : black;
+}	
+.video-background {  
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    overflow: hidden;
+}
+
+#background-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 1.0;
+}
+
+.home-kit {   
+		height: 200px;
+		width: 140px;
+        }
+		
+.home-shorts {
+		height: 30px;
+		width: 10px;
+        }
+
+.away-kit {   
+		height: 200px;
+		width: 300px;
+        }
+		
+.away-shorts {
+		height: 30px;
+		width: 10px;
+        }
+		
+.shopcontact {
+		text-align: left;
+		}
+
+
+
+.text-overlay {
+    position: absolute;
+    top: 40%;           /* vertical position */
+    left: 50%;          /* horizontal position */
+    transform: translate(-50%, -50%);  /* centers the text */
+    color: green;       /* text color */
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px black;  /* makes text easier to read */
+	color: white;
+	text-shadow: 1px 1px 2px black, 0 0 25px red, 0 0 5px red;
+}
+
+.button {
+  background-color: #FFFFFF;
+  border: none;
+  color: white;
+  text-align: center;
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button1 {padding: 10px 24px;}
+
+.guards {
+	color: white;
+}
+
+.forwards {
+	color: white;
+}
+
+.captain {
+	color: white;
+}
+
+.standings {
+  background-color: White;
+  width: 1000px;
+  border: 10px;
+  padding: 50px;
+  margin: 20px;
+  color: black;
+}
